@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    font-family:'Hanken Grotesk',sans-serif ;
+    color: hsl(241, 100%, 89%);
+}
+
+
+.container{
+    background-color:white ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width:620px ;
+    height: 450px;
+    box-shadow: hsla(221, 100%, 96%)  20px 20px 30px 8px;
+    border-radius: 30px;
+}
+.container .card .results{
+    text-align: center;
+    background:linear-gradient(185deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%)  );
+    border-radius: 30px;
+    width: 50%;
+    padding: 15px 20px 15px 20px ;
+    font-size: 18px;
+    
+}
+.container .card .summary{
+    border-radius: 30px;
+    width: 50%;
+    background-color:white;
+    overflow: hidden;
+    text-align: center;
+   padding-left: 15px;
+
+
+
+}
+.container .card .results .rslt{
+    font-size:21px ;
+    font-weight: 600;
+    color: hsl(241, 100%, 89%);
+    margin-top: 18px;
+
+}
+.results .progress{
+    background:linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)) ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(40% ,10%);
+}
+.results .progress .actual{
+    font-size: 50px ;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.results .progress .goal{
+    font-weight: 400;
+    font-size: 14px;
+    transform: translate(0,-100%);
+    color: hsl(240, 41%, 75%);
+
+     
+}
+.results .subtitle{
+    color: white;
+    font-weight: 600;
+    font-size:25px ;
+    transform: translate(0,70%);
+
+}
+.results .desc{
+    font-size: 15px;
+    margin: 35px;
+}
+
+.card .summary .title{
+    color: hsl(224, 30%, 27%);
+    font-size: 21px;
+    padding:  20px;
+    width: 50%;
+    transform: translate(-15%,0);
+
+}
+
+.card .summary .red{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: hsl(0, 100%, 67%,0.1);
+    border-radius: 10px;
+    width: 90%;
+
+
+
+}
+.card .summary .green{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color:hsla(166, 100%, 37%,0.1) ;
+    border-radius: 10px;
+    width: 90%;
+
+}
+.card .summary .yellow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color:hsl(39, 100%, 56%,0.1);
+    border-radius: 10px;
+    width: 90%;
+}
+.card .summary .blue{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: hsla(234, 85%, 45%,0.1);
+  border-radius: 10px;
+  width: 90%;
+
+
+  
+}
+
+.card .summary .red .item{
+    color: hsl(0, 100%, 67%);
+    padding-left: 5px;
+    font-weight: 500;
+}
+.card .summary .red img{
+
+   transform: translate(0,15%);
+}
+.card .summary .yellow .item{
+    color: hsl(39, 100%, 56%);
+    padding-left: 5px;
+    font-weight: 500;
+}
+.card .summary .yellox img{
+
+   transform: translate(0,15%);
+}
+.card .summary .green .item{
+    color: hsl(166, 100%, 37%);
+    padding-left: 5px;
+    font-weight: 500;
+}
+.card .summary .green img{
+
+   transform: translate(0,15%);
+}
+.card .summary .blue .item{
+    color:  hsl(234, 85%, 45%);
+    padding-left: 5px;
+    font-weight: 500;
+}
+.card .summary .blue img{
+
+   transform: translate(0,15%);
+}
+.card .summary .val{
+    color:hsl(224, 30%, 27%) ;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.card .summary .val span{
+    color:hsl(224, 30%, 27%,0.5) ;
+    
+}
+
+.card .summary button{
+    background-color:hsl(224, 30%, 27%)  ;
+    color: white;
+    width: 90%;
+    height:40px ;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-right: 16px;
+    border: none;
+    font-weight: 500;
+
+}
+.card .summary button:hover{
+    background: linear-gradient(10deg, hsl(241, 72%, 46%,0.7) ,hsl(256, 72%, 46%)) ;
+}
+
+
